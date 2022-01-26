@@ -16,7 +16,7 @@ export default function App() {
         title='Change Text' 
         onPress={() => {
           toggle = !toggle; 
-          setOutputText(toggle? 'Gustavo Matsumoto Rosendo dos Santos':'the Software Engineer');}} />
+          setOutputText(toggle? 'Gustavo Matsumoto Rosendo dos Santos':'a Software Engineer');}} />
       <StatusBar style="auto" />
     </View>
   );
